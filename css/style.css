@@ -1,0 +1,169 @@
+/* GENERAL STYLING */
+
+@font-face {
+    font-family: "gotham";
+    src: url("../fonts/Gotham-Light.otf");
+}
+
+@font-face {
+    font-family: "gothamLight";
+    src: url("../fonts/Gotham-Light.otf");
+}
+
+@font-face {
+    font-family: "gothamThin";
+    src: url("../fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+    font-family: "gothamMedium";
+    src: url("../fonts/Gotham-Medium.otf");
+}
+
+@font-face {
+    font-family: "gothamUltra";
+    src: url("../fonts/Gotham-Ultra.otf");
+}
+
+@font-face {
+    font-family: "gothamNarrowBlack";
+    src: url("../fonts/GothamNarrow-Black.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'gotham' !important;
+}
+
+/* END OF GENERAL STYLING */
+
+
+/* NAVBAR STYLING */
+
+.top-container {
+    padding: 25px 0 25px 0;
+}
+
+.nav {
+    padding: 10px 0 10px 0;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.nav ul li a {
+    text-decoration: none !important;
+    color: #1DB3EF !important;
+    padding: 5px;
+    font-family: 'gothamLight';
+    font-weight:  lighter;
+    font-size: .9em;
+    margin-left: 20px !important;
+    transition: .3s;
+}
+
+.nav ul li a:hover {
+    color: #f39d1a !important;
+}
+
+.logo-container img {
+    width: 20%;
+}
+
+/* END NAVBAR STYLING */
+
+
+/* CAUROUSEL STYLING */
+
+.carousel-inner {
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* END CAUROUSEL STYLING */
+
+
+/* ABOUT US STYLING */
+
+.contentArea {
+    padding: 5% 0 5% 0;
+    font-size: .9em;
+}
+
+.contentArea h4 {
+    color: #1DB3EF;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.contentArea hr {
+    border: 1px solid #f39d1a !important;
+    width: 50px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.contentArea p {
+    color: rgb(71, 71, 71);
+    font-size: 1.2em;
+}
+
+/* END ABOUT US STYLING */
+
+
+/* FOOTER AREA */
+
+.footerContainer {
+    background-color: #f39d1a;
+    height: 60px;
+}
+
+.footerContainer a {
+    text-decoration: none !important;
+}
+
+.footerContainer a p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footerMain {
+    background-color: #1DB3EF;
+}
+
+.footerContent {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+}
+
+.footerLinks ul {
+    float: right;
+    margin-left: 40px;
+}
+
+.footerLinks ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.footerLinks ul li a {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 10px;
+    line-height: 80px;
+}
+
+/* END FOOTER AREA */
